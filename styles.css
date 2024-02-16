@@ -1,0 +1,68 @@
+body{
+    background-color:hsl(0,0%,8%);
+
+}
+h3{
+    font-family: inter;
+    font-weight: 700;
+}
+@font-face {
+    font-family:"Inter";
+    src: url(c:\Users\HPFOLIO\Downloads\Inter\Inter-VariableFont_slnt,wght.ttf) format(wght);
+}
+.main{
+    background-color: hsl(0,0%,12%);
+    color:white;
+    width: 30%;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:auto;
+    margin-right:auto ;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    min-width: 375px;
+    font-family:inter
+}
+@media (max-width:375px){
+    .main{
+        width: 100%;
+    }
+}
+
+img{
+    width: 100px;
+    border-radius: 50px;
+}
+.yellow{
+    color: hsl(74,94%,57%);
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.bio{
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight:400 ;
+}
+button{
+    width: 310px;
+    height: 45px;
+    background-color:hsl(0,0%,20%);
+    color:hsl(0,0%,100%);
+    border: 2px solid hsl(0,0%,20%);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    font-weight: 600;
+}
+
+button:focus{
+    outline: 2px solid blue;
+}
+button:hover{
+    color:brown;
+}
